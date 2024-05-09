@@ -1,29 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OpenDisk Operating System</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to OpenDisk - Your Dynamic OS</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <style>
-        body {
-            background: wheat;
-            color: black;
-        }
-        
-        .invisible {
-            color: wheat;
-        }
-    </style>
-
-    <center><h1>OpenDisk Operating System</h1></center>
-    <div>
-        <h1>An web based dinamic Operating System!</h1>
-        <img src="./OpenDiskOS.png" alt="screenshot" width="700">
-        <p>An dynamic OS created with a kid's imagination</p>
-        <p class="invisible">please don't use the installers....</p>
-        <button onclick="window.location.href = './OpenDiskOS.zip';">Download Now!</button>
+  <header>
+    <h1>Welcome to OpenDisk</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="about">
+    <div class="container">
+      <h2>About OpenDisk</h2>
+      <p>OpenDisk is a cutting-edge Dynamic Operating System designed to revolutionize the way you interact with your computer. With its innovative features and intuitive interface, OpenDisk offers a seamless computing experience for users of all levels.</p>
     </div>
+  </section>
+  <section id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <ul>
+        <li>Dynamic Interface</li>
+        <li>Customizable Widgets</li>
+        <li>Integrated Cloud Storage</li>
+        <li>Enhanced Security</li>
+        <li>Efficient Resource Management</li>
+      </ul>
+    </div>
+  </section>
+  <section id="download">
+    <div class="container">
+        <h2>Download OpenDisk</h2>
+        <p>Experience the future of computing today. Download OpenDisk for free!</p>
+        <a href="./OpenDiskOS.zip" class="download-btn">Download Now</a>
+    </div>
+    <div class="screenshot">
+        <img src="./OpenDiskOS.png" wight="500" alt="OpenDisk Screenshot">
+    </div>
+</section>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? We'd love to hear from you!</p>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Quora Computer inc & MigLabs Company. All rights reserved.</p>
+  </footer>
 </body>
 </html>
